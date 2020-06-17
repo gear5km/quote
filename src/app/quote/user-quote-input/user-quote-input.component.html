@@ -1,0 +1,17 @@
+
+<div class="userInput">
+    <h3>Ever heard something memorable? Share It!</h3>
+    <input type="text" [(ngModel)]="userQuoteInput" />
+
+    <div class="userQuote">
+
+      <p>Please tell Us your Name, one day this may be important!</p>
+      <input type="text" [(ngModel)]="userQuoteName" />
+      <p>
+        you have typed "  {{userQuoteInput}} "
+        {{userQuoteName}}
+      </p>
+
+      <p>you Said: {{userQuote1.quote}} </p>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\quote",
+    "\\src\\app\\quote\\user-quote-input",
+    "\\src\\app\\quote\\user-quote-vote"
+  ],
+  "SelectedNode": "\\src\\app\\quote\\user-quote-vote\\dataSource.ts",
+  "PreviewInSolutionExplorer": false
+}

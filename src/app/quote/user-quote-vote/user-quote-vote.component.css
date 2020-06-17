@@ -1,0 +1,27 @@
+@import "../../../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+#quoteBox{
+    /*border:solid grey;*/
+    height:200px;
+}
+
+#centerObject{
+    margin-left:45%;
+}
+
+#quote{
+    font-size:22px;
+}
+
+#authour{
+    font-size:18px;
+    font-style: italic;
+}
+
+#likeButton{
+    margin-left:3%;
+}
+
+#dislikeButton{
+    margin-left:4%;
+}
