@@ -11,14 +11,14 @@ export class quoteVote {
   quote;
   authour;
   rating;
-  voteCount;
+  //voteCount;
 
   constructor(quote,authour,rating) {
 
     this.quote =  quote;
     this.authour = authour;
     this.rating = rating;
-    this.voteCount = 1 ;
+    //this.voteCount = 1 ;
 
   }
 }

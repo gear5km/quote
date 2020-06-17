@@ -1,17 +1,23 @@
 
 <div class="userInput">
     <h3>Ever heard something memorable? Share It!</h3>
-    <input type="text" [(ngModel)]="userQuoteInput" />
+    <input type="text" [(ngModel)]="text1" />
 
     <div class="userQuote">
-
-      <p>Please tell Us your Name, one day this may be important!</p>
-      <input type="text" [(ngModel)]="userQuoteName" />
+      <form (ngSubmit)="onSubmit()">
+      <p>Please tell us your Name, one day this may be important!</p>
+      <input type="text" [(ngModel)]="text2" />
       <p>
-        you have typed "  {{userQuoteInput}} "
-        {{userQuoteName}}
+        you have typed "  {{text1}} "
+        {{text2}}
       </p>
+      </form>
 
-      <p>you Said: {{userQuote1.quote}} </p>
+      <p>you Said: {{text1}} </p>
+      <button type="submit" class="btn btn-primary" id="submitButton" (click)="onSubmit()" > Submit</button>
+
+      <p id="quote">{{text0}}</p>
+      <p id="authour">{{quote1[0].quote}}</p>
+      <p id="quote">{{text1}}</p>
     </div>
 </div>

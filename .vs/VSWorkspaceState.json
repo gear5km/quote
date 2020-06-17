@@ -7,6 +7,6 @@
     "\\src\\app\\quote\\user-quote-input",
     "\\src\\app\\quote\\user-quote-vote"
   ],
-  "SelectedNode": "\\src\\app\\quote\\user-quote-vote\\dataSource.ts",
+  "SelectedNode": "\\src\\app\\quote\\user-quote-vote\\quoteVoteModel.ts",
   "PreviewInSolutionExplorer": false
 }
